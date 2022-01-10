@@ -14,7 +14,6 @@ async def trigger(uri):
             else:
                 print(message,flush=True)
 
-
 nexus_svc_hostname=os.environ.get('NEXUS_BACKUP_SVC_HOSTNAME')
 nexus_svc_port=os.environ.get('NEXUS_BACKUP_SVC_PORT')
 nexus_svc_url="ws://"+nexus_svc_hostname+":"+nexus_svc_port
